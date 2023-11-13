@@ -82,6 +82,76 @@ p{
 }
 
 /* Estilos de los productos */
+.precio{
+    font-size: 18px;
+    flex-grow: 0.3;
+}
+
+.descuento{
+    font-size: 16px;
+    color: green;
+    flex-grow: 0.7;
+    
+}
+
+.descripcion{
+    font-size: 16px;
+    text-align: left;
+    color: #686B61;
+    display: none;
+}
+
+
+.nav-bar{
+    display: none;
+    padding: 0 15px;
+    padding-bottom: 20px;
+}
+
+.nav-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+.header__search-bar{
+    position: relative;
+}
+
+.search-input{
+    width: 100%;
+    border-radius: 5px; 
+    border-width: 0px;
+    margin-bottom: 2px;
+    padding: 10px 10px;
+}
+
+.search-icon {
+    background-color: white;
+    color: #5b5b5b;
+    border-radius: 5px; 
+    border: none;
+    padding: 10px;
+    right: 1%;
+    position: absolute;
+ 
+}
+
+i{
+    font-size: 15px;
+}
+
+span{
+    display: block;
+    text-align: center;
+}
 .producto{
     margin-bottom: 10px;
 }
