@@ -1,11 +1,31 @@
-const express = require('express');
-const path = require('path');
+//Require Express
+const express = require("express");
+
+//Ejecucion de Express
 const app = express();
-app.listen(3030, () => console.log('Servidor Corriendo'));
-app.use(express.static('public'));
 
-app.get('/',(req,res) => res.sendFile(path.resolve("./views/index.html")));
+//Require path
+const path = require("path");
 
-app.get('/register',(req,res) => res.sendFile(path.resolve("./views/registro.html")));
+//Usando recursos estaticos
+app.use(express.static("public"));
 
-app.get('/login',(req,res) => res.sendFile(path.resolve("./views/loggin.html")));
+//levantando el servidor en el puerto 3000
+app.listen(3030, () => console.log("Servidor Corriendo"));
+
+//** */ Rutas a los recursos
+
+//Ruta Raiz => Home
+app.get("/", (req, res) => {
+    res.sendFile(path.resolve("./views/index.html"));
+});
+
+//Ruta Raiz => Registro
+app.get("/registro", (req, res) => {
+    res.sendFile(path.resolve("./views/registro.html"));
+});
+
+//Ruta Raiz => Loggin
+app.get("/loggin", (req, res) => {
+    res.sendFile(path.resolve("./views/loggin.html"));
+});
