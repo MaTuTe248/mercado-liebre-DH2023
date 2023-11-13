@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilo1.css">
+    <link rel="stylesheet" href="css/estilo2.css">
+
+</head>
+<body>
+    
+    <header>
+
+        <div class="header__encabezado">
+   
+           <div class="header__logo">
+               <a href="./"><img src="/img/logo-mercado-liebre.svg" class="header__img" alt="" /></a>
+           </div>
+
+        </div>
+     
+    </header>
+
+
+    <main>
+
+        <h4 class="title-register">Ingresá tus datos para registrarte</h4>
+
+        <form action="./" class="form__control">
+
+        <div class="form__control-field">
+            <label class="form__control-label" for="nombreyApellido"> Nombre y Apellido</label> 
+            <input type="text" name="nombreyApellido" id="nombreyApellido" class="form__control-input">
+        </div>
+
+        <div class="form__control-field">
+            <label class="form__control-label" for="nombreUsuario"> Nombre de usuario</label>
+            <input type="text" name="nombreUsuario" id="nombreUsuario" class="form__control-input">
+        </div>
+
+        <div class="form__control-field">
+            <label class="form__control-label" for="email"> Email</label>
+            <input type="email" name="email" id="email" class="form__control-input">
+        </div class="form__control-field">
+
+        <div class="form__control-field">
+            <label class="form__control-label" for="fechaNacimiento"> Fecha de nacimiento</label>
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento" class="form__control-input">
+        </div class="form__control-field">
+
+        <div class="form__control-field">
+            <label class="form__control-label" for="domicilio"> Domicilio</label>
+            <input type="text" name="domicilio" id="domicilio" class="form__control-input">
+        </div>
+
+        <div class="form__control-field">
+            <label class="form__control-label"> Perfil de Usuario</label><br>
+
+            <input type="radio" name="perfilDeUsuario" id="comprar" value="comprar" class="form__control-radio">
+            <label for="comprar" class="form__control-label">Comprar</label>
+
+            <input type="radio" name="perfilDeUsuario" id="vender" value="vender" class="form__control-radio">
+            <label for="vender" class="form__control-label">Vender</label>
+           
+        </div>
+
+        <div class="form__control-field"> 
+            <label class="form__control-label">Categorias de Interes:</label>
+                <br>
+                <input type="checkbox" name="categoria" value="electro" id="electro" class="form__control-checkbox">
+                <label for="electro" class="form__control-label">Electro</label>
+                <br>
+                <input type="checkbox" name="categoria" value="moda"  id="moda" class="form__control-checkbox">
+                <label for="moda" class="form__control-label">Moda</label>
+                <br>
+                <input type="checkbox" name="categoria" value="hogar" id="hogar" class="form__control-checkbox">
+                <label for="hogar" class="form__control-label">Hogar</label>
+                <br>
+                <input type="checkbox" name="categoria" value="jugueteria" id="jugueteria" class="form__control-checkbox">
+                <label for="jugueteria" class="form__control-label">Jugueteria</label>
+                <br>
+                <input type="checkbox" name="categoria" value="vidaSana" id="vidaSana" class="form__control-checkbox">
+                <label  for="vidaSana" class="form__control-label">Vida Sana</label>   
+        </div>
+
+        <div class="form__control-field">
+            <label class="form__control-label">Foto de Usuario: <input type="file" name="avatar" accept=".jpg .png" class="form__control-input"></label>
+        </div class="form__control-field">
+
+        <div class="form__control-field"> 
+            <label class="form__control-label">Contraseña</label>
+            <input type="password" name="password" class="form__control-input">
+        </div class="form__control-field">
+
+        <div class="form__control-field"> 
+            <label class="form__control-label">Confirmar contraseña</label>
+            <input type="password" name="confirmPassword" class="form__control-input">
+        </div>
+
+        <div class="form__control-botonera">
+            <button type="reset" class="form__control-button-reset">Limpiar</button>
+            <button type="submit" class="form__control-button-submit">Enviar</button>
+        </div>
+
+        
+    </form>
+       
+
+    </main>
+
+
+</body>
+</html>
