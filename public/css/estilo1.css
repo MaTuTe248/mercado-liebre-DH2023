@@ -135,6 +135,21 @@ p{
     color: #4d4d4d;
 }
 
+.burger-menu{
+    padding-bottom: 20px;
+}
+
+.burger-menu__boton{
+    color: white;
+    background-color:#03264C;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+}
+
 /* Estilos del pie de página */
 footer{
     background-color: white;
