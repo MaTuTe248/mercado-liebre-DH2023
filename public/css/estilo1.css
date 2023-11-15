@@ -220,6 +220,100 @@ span{
     margin: auto;
 }
 
+
+.title-register{
+    font-size: 20px;
+    text-align: center;
+    color: #4d4d4d;
+}
+
+.title-login{
+    font-size: 20px;
+    text-align: center;
+    color: #4d4d4d;
+}
+
+.form__control{
+    padding: 20px 10px;
+}
+
+.form__control-field{
+    padding: 10px 10px;
+    display: block;
+}
+
+.form__control-label{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.form__control-input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.form__control-radio{
+   margin-right: 30px;
+   margin-left: 20px;
+}
+
+.form__control-checkbox{
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.form__control-botonera{
+    padding: 10px 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.form__control-botonera-login{
+    padding: 10px 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form__control-button-reset{
+    padding: 10px 10px;
+    margin-left: 25px;
+    border: none;
+    background-color:#0044AA;
+    color: white;
+    border-radius: 5px;
+}
+
+.form__control-button-submit{
+    padding: 10px 10px;
+    margin-left: 25px;
+    border: none;
+    background-color:#39b54a;
+    color: white;
+    border-radius: 5px;
+}
+
+.form__control-button-login{
+    padding: 10px 10px;
+    border: none;
+    background-color:#0044AA;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+
 /* Estilos del pie de página */
 footer{
     background-color: white;
